@@ -54,19 +54,6 @@ The following option pricing parameters are hardcoded in the `main()` function o
 - `steps`: Number of time steps (default: 100)
 - `simulations`: Number of Monte Carlo simulations (default: 10,000)
 
-## Code Structure
-
-- **`monte_carlo.cpp`**: The main C++ code file where the Monte Carlo simulation is implemented.
-  - `simulate_price_path()`: Simulates the stock price paths using Geometric Brownian Motion.
-  - `european_option_pricing()`: Prices European call and put options.
-  - `american_option_pricing()`: Prices American call and put options with early exercise.
-
 ## Modify the Code
 To modify any of the parameters, simply edit the values inside the `main()` function in the `monte_carlo_option_pricing.cpp` file. For example, you can change the number of Monte Carlo simulations or the volatility (`sigma`).
-
-## License
-This project is licensed under the MIT License. You are free to use, modify, and distribute this code.
-
-## Contributions
-Feel free to fork this repository and contribute to the project by submitting pull requests. For any issues or suggestions, open an issue in the repository.
 
