@@ -18,20 +18,20 @@ To compile and run this project, you need:
 ### Steps to Execute the Program:
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/monte-carlo-option-pricing.git
-    cd monte-carlo-option-pricing
+    git clone [https://github.com/your-username/monte-carlo-option-pricing.git](https://github.com/parishamaheshj18/MonteCarlo_Options.git)
+    cd Scripts
     ```
 
 2. **Compile the C++ code:**
     Use the `g++` compiler to compile the code.
     ```bash
-    g++ monte_carlo_option_pricing.cpp -o option_pricing
+    g++ monte_carlo.cpp -o monte_carlo
     ```
 
 3. **Run the executable:**
     After compiling, you can run the program with the following command:
     ```bash
-    ./option_pricing
+    ./monte_carlo
     ```
 
 4. **Expected Output:**
@@ -56,7 +56,7 @@ The following option pricing parameters are hardcoded in the `main()` function o
 
 ## Code Structure
 
-- **`monte_carlo_option_pricing.cpp`**: The main C++ code file where the Monte Carlo simulation is implemented.
+- **`monte_carlo.cpp`**: The main C++ code file where the Monte Carlo simulation is implemented.
   - `simulate_price_path()`: Simulates the stock price paths using Geometric Brownian Motion.
   - `european_option_pricing()`: Prices European call and put options.
   - `american_option_pricing()`: Prices American call and put options with early exercise.
